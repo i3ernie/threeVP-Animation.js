@@ -1,0 +1,37 @@
+{
+    "name": "threeVP-Animation",
+    "version": "0.0.1",
+    "keywords": ["three", "loader"],
+    "license": "MIT",
+    
+    "author": "bernie",
+    "contributors": [],
+    
+    "repository" :
+    {
+        "type" : "git",
+        "url" : "git://github.com/i3ernie/threeVP-Animation.js.git"
+    },
+    
+    "dependencies": {
+        "threeVP" : "git://github.com/i3ernie/threeVP.js.git"
+    },
+    
+    "directories": {
+        "doc" : "docs",
+        "example" : "examples",
+        "test" : "test",
+        "dist" : "dist",
+        "src" : "src"
+    },
+    
+    "devDependencies": {
+        "requirejs" : "latest",
+        "lodash" : "latest",
+        "gulp"              : "latest",
+        "gulp-load-plugins" : "latest",
+        "gulp-requirejs"    : "latest",
+        "gulp-uglify"       : "latest",
+        "fs-extra"          : "latest"
+    }
+}

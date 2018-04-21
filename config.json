@@ -1,0 +1,25 @@
+{
+    "baseUrl": "./src",
+    "paths": {
+        "vendor"    : "vendor",
+        "libs"      : "libs",
+        "extras"    : "extras",
+        "lodash"    : "vendor/lodash/lodash",
+        "three"     : "vendor/three/three",
+        "chaser"    : "extras/chaser",
+        
+        "json"      : "vendor/require/json",
+        "text"      : "vendor/require/text",
+        
+        "tween"     :"empty:",        
+        "cmd" :"empty:",
+        "three" :"empty:",
+        "plugin" :"empty:"
+      
+    },
+    "map": {
+        "*": {
+            "underscore": "lodash"
+        }
+    }
+}
