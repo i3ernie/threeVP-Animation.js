@@ -18,7 +18,6 @@
     },
     
     "directories": {
-        "doc" : "docs",
         "example" : "examples",
         "test" : "test",
         "dist" : "dist",
