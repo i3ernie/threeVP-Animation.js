@@ -37,7 +37,7 @@ gulp.task('init', function () {
         });
     };
     
-    var modules = require("./build/node_modules.json");
+    var modules = require("./node_modules.json");
     
     _.each(modules, ( el ) =>{
         fnc(el.src, el.dest, el.req , el.name, el.mod);
