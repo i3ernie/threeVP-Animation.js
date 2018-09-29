@@ -1,36 +1,39 @@
 {
     "name": "threeVP-Animation",
     "version": "0.0.1",
-    "keywords": ["three", "loader"],
+    "keywords": [
+        "three",
+        "loader"
+    ],
     "license": "MIT",
-    
     "author": "bernie",
     "contributors": [],
-    
-    "repository" :
-    {
-        "type" : "git",
-        "url" : "git://github.com/i3ernie/threeVP-Animation.js.git"
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/i3ernie/threeVP-Animation.js.git"
     },
-    
     "dependencies": {
-        "threeVP" : "git://github.com/i3ernie/threeVP.js.git"
+        "threeVP": "git://github.com/i3ernie/threeVP.js.git"
     },
-    
     "directories": {
-        "example" : "examples",
-        "test" : "test",
-        "dist" : "dist",
-        "src" : "src"
+        "example": "examples",
+        "test": "test",
+        "dist": "dist",
+        "src": "src"
     },
-    
     "devDependencies": {
-        "requirejs" : "latest",
-        "lodash" : "latest",
-        "gulp"              : "latest",
-        "gulp-load-plugins" : "latest",
-        "gulp-requirejs"    : "latest",
-        "gulp-uglify"       : "latest",
-        "fs-extra"          : "latest"
+        "fs-extra": "^6.0.1",
+        "gulp": "latest",
+        "gulp-load-plugins": "latest",
+        "gulp-requirejs": "latest",
+        "gulp-uglify": "^3.0.1",
+        "lodash": "^4.17.10",
+        "requirejs": "^2.3.6",
+        "three": "latest"
+    },
+    "scripts": {
+        "build": "gulp build",
+        "init": "gulp init",
+        "update": "npm update"
     }
 }
